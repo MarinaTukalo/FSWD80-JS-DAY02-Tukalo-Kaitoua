@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Average Grade</title>
+</head>
+<body>
+	
+
+	<script>
+		function myFunction(){
+			var math = prompt("What are your grades in Math? ","3,4,5");
+			var physics = prompt("What are your grades in Physics? ", "3,4,5");
+			var english = prompt("What are your grades in English?", "3,4,5");
+
+			var sum = parseInt(math) + parseInt(physics) + parseInt(english);
+			var average = sum / 3;
+
+			return("Sum: " + sum + "<br>" + "Average: "+ average);
+		}
+			document.write(myFunction());
+			document.write("<br>");
+	</script>
+</body>
+</html>
