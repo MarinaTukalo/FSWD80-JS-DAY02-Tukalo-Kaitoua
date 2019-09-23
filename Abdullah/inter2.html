@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>basic</title>
+	
+</head>
+<body>
+
+
+<script>
+
+
+
+function myFunction() {
+  
+var math = prompt("What's your grade from the math?", "your degree");
+
+
+
+var physic = prompt("What's your grade from the physic?", "your degree");
+  
+
+var english = prompt("What's your grade from the english?", "your degree");
+
+
+  var sum =  parseInt(math) + parseInt(physic) + parseInt(english);
+  var ava = sum/3;
+
+  return 'your sum: ' +sum + '<br>'+'your average: ' + ava;
+  
+
+
+
+}
+
+
+
+document.write(myFunction());
+document.write('<br>');
+
+</script>
+
+</body>
+</html>
