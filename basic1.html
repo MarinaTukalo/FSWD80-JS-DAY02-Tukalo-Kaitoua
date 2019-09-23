@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>basic</title>
+	
+</head>
+<body>
+
+
+<script>
+
+	function crystalGazer(jobtitle,location,partners_name,number_children)
+{
+var myres='You will be a '+ jobtitle + ' in ' + location + ' and married to ' +partners_name+ ' with ' + number_children + ' childrens';
+	document.write(myres);
+   return myres;
+}
+
+crystalGazer('web developer','Vienna', 'Robert',5);
+document.write('<br>');
+
+
+	function ageCalculator(birthyear, currentyear)
+{
+
+	
+	var firstage = currentyear -birthyear;
+	var secondage = firstage++;
+	var myres='You are ' + firstage + ' or.' + secondage;
+	document.write(myres);
+   return myres;
+}
+
+ageCalculator(1991,2019);
+document.write('<br>');
+
+	function Degree_Radian_Conversion(mydegree)
+{
+
+
+	var myradians = mydegree * (Math.PI/180);
+	
+	var myres='You got ' + myradians + ' degrees.';
+	document.write(myres);
+   	return myres;
+}
+
+Degree_Radian_Conversion(120);
+document.write('<br>');
+
+
+	function Area_and_Volume_of_a_box(mywidth,myheight,mydepth)
+{
+
+
+	var myarea = mywidth*myheight;
+	var myvolume = mywidth*myheight*mydepth;
+	
+	var myres='The area of the box is:  ' + myarea + ' <br> '+' The volume of the box is: ' + myvolume;
+	document.write(myres);
+   	return myres;
+}
+
+Area_and_Volume_of_a_box(7,2,5);
+document.write('<br>');
+
+
+
+</script>
+
+</body>
+</html>
